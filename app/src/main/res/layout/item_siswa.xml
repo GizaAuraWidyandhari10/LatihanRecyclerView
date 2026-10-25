@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:layout_margin="6dp"
+    android:background="#DCCCF5">
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Siswa"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#211A2B" />
+
+    <TextView
+        android:id="@+id/tvKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        android:textSize="12sp"
+        android:textColor="#514263"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvHobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobi"
+        android:textSize="12sp"
+        android:textColor="#514263"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
